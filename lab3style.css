@@ -1,8 +1,78 @@
 body {
   background-color: lightblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
+#bar {
+    text-align: center;
+    background-color: rgb(209, 209, 209);
+    padding: 4px;
+    margin: 10px;
+}
+
+#name {
+  width: 125px;
+}
+
+#name:focus {
+  width: 500px;
+}
+
+#main-nav {
+    background-color:aliceblue;
+    text-align: center;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover {
+  background-color:indianred;
+  color: white;
+}
+
+#main-nav li:hover ul {
+  display: block;
+  background-color:red;
+  float: left;
+  position: absolute;
+  padding: 0;
+}
+
+.content-area {
+  width: 70%;
+  float: left;
+}
+
+.content-box {
+  background-color: aliceblue;
+  color: black;
+  border: 4px solid black;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#contact {
+  text-align: left;
+  background-color: rgba(149, 31, 196, 0.795);
+  float: right;
+  width: 25%;
+  border: 4px solid cadetblue;
+  padding: 10px;
+}
+
+#contact:hover {
+  background-color: rgb(220, 106, 255);
+}
+
+.main-container {
+  border: 3px solid cadetblue;
+  width: 100%;
+  height: 50%;
+  margin: 1px;
+  padding: 1px;
+  
 }
